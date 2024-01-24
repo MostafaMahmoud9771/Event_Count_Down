@@ -1,0 +1,94 @@
+/* ====== */
+/* Header */
+/* ====== */
+header {
+  background-image: url("../Imgs/header.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(214, 46, 51, 0.6);
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+#side-bar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 1000;
+}
+
+#side-bar-open-icon {
+  transform: translateY(50vh);
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+#side-bar-close-icon {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#side-bar a {
+  transition: all 0.3s;
+}
+
+#side-bar a:hover,
+#side-bar-close-icon:hover {
+  color: rgb(214, 46, 51) !important;
+}
+
+/* ======= */
+/* Details */
+/* ======= */
+#details-section h2 {
+  background-color: #e0757c;
+  cursor: pointer;
+}
+
+#details-section p {
+  background-color: #ccc;
+}
+
+/* ======== */
+/* Duration */
+/* ======== */
+#duration-section {
+  background-image: url("../Imgs/join-us.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+#duration-section .duration-section-content {
+  position: relative;
+  z-index: 500;
+}
+
+/* ======= */
+/* Contact */
+/* ======= */
+.icons {
+  gap: 1rem;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.icon:hover {
+  color: #fff !important;
+  background-color: red;
+}
+
+textarea {
+  resize: none;
+}
